@@ -11,24 +11,23 @@ const animeShows = db.define('animeshows', {
         allowNull:false
     },
     creator:{
-        type: Sequelize.STRING,
-        allowNull:false
+        type: Sequelize.STRING
+        
     },
     characters:{
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING
+        
     },
     seasons:{
-        type: Sequelize.INTEGER,
-        allowNull:false
+        type: Sequelize.INTEGER
+        
 
     },
     imageUrl:{
-        type: Sequelize.DataTypes.STRING,
-        allowNull:false 
+        type: Sequelize.DataTypes.STRING
+    
     }
 })
 
-module.exports = {
+module.exports = 
     animeShows
-}

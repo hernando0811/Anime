@@ -4,7 +4,9 @@ PORT = 3000;
 
 const app = express();
 
-app.use(morgan("tiny"));
+app.use(morgan('tiny'));
+
+app.use(require("./api/index"))
 
 app.listen(3000, ()=>{
     console.log(`started listening on port:${PORT}`)
