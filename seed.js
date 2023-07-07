@@ -1,4 +1,4 @@
-const {db, animeShows} = require('./db/index.js')
+const {db, animeShows} = require('./server/db/index.js')
 
 
 

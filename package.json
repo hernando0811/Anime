@@ -1,10 +1,10 @@
 {
   "name": "anime",
   "version": "1.0.0",
-  "description": "",
+  "description": "first of all create the database and give it a name",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon server/app.js",
     "seed": "node seed.js"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
     "pg": "^8.11.1",
     "sequelize": "^6.32.1"
   }
