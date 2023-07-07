@@ -1,3 +1,5 @@
+for this project I am using postgresql/psql  express , nodemon, and sequelize 
+
 first of all create the database and give it a name 
 
 for my instance i will go into psql  and type in 
@@ -16,4 +18,7 @@ then you will type in     npm run seed     this command will seed your database 
 
 to interact with this project  you can go to your favorite browser and type in the following
   localhost:3000/animeshows         here you will be able to see all the the shows that we have preloaded into the database 
+
+
+  this is a complete backend application that you can add into your project or create a front end for!!!
 
